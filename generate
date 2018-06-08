@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 generate.py
+rm -f cv-en.html cv-fr.html
+cp cv.en.html cv-en.html
+cp cv.fr.html cv-fr.html
