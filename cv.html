@@ -221,6 +221,11 @@
     .themail::after {
         content: "@hotmail.com";
     }
+    .frequency {
+        margin-right: 1em;
+        font-variant: italic;
+        font-size: 80%;
+    }
   </style>
 
 </head>
@@ -237,7 +242,6 @@
             <p>+32 474 78 15 97</p>
             <p class="themail">robertvandeneynde</p>
             <p><a href="https://robertvandeneynde.be">robertvandeneynde.be</a></p>
-            <p><a href="github.com/robertvandeneynde">github.com/robertvandeneynde</a></p>
             <p>
                 <a href="https://robertvandeneynde.be/cv/cv.{{en|fr}}.html">{{English version available|Version en français disponible}}</a>
                 <a href="https://robertvandeneynde.be/cv/cv-robert-vanden-eynde-{{fr|en}}.pdf">#pdf</a>
@@ -251,64 +255,88 @@
 
         <h2>{{ Expérience | Experience }}</h2>
         
-        <h3><span class="date">2018 – now</span> <span class="data">{{ Assistant extérieur d'informatique en Polytechnique et en Sciences Écononomiques (ULB, Bruxelles)
-            | External teaching assistant in Polytechnique and Sciences Écononomiques (ULB, Brussels)}}</span></h3>
-        <p>
-        {{
-            2h par semaine pendant un quadrimestre. Cours de C++ en 3ème année de Polytechnique, section informatique et biomédical. Cours de Python/Django en 3ème année de Sciences Écononomiques, tronc commun.
-            |
-            2h per week during one quadrimester. C++ programming in 3rd year of <em>Polytechnique, section informatique et biomédical</em>. Python/Django programming in 3rd year of <em>Sciences Écononomiques, tronc commun</em>.
-        }} &mdash; <a href="http://robertvandeneynde.be/parascolaire">robertvandeneynde.be/parascolaire</a>
-        </p>
-        
         <h3><span class="date">2018 – now</span> <span class="data">{{ Professeur d'informatique en secondaire à l'institut de l'Assomption (Bruxelles)
             | Teacher computer science at <em>Institut de l'Assomption</em> (Brussels)}}</span></h3>
         <p>
         {{
-            12h par semaine, initiation à la programmation informatique (python) pour des élèves de l'enseignement secondaire (de 13 à 16 ans) par la programmation de jeux vidéos (pygame)
+            <em class="frequency">12h/semaine</em>
+            Initiation à la programmation informatique (python) pour des élèves de l'enseignement secondaire (de 13 à 16 ans) par la programmation de jeux vidéos (pygame),
+            et la création de sites web (HTML/CSS).
             |
-            12 per week, 6 classes having 1h per week. Initiation to programming (python) for students of secondary school (13 to 16 years old) creating video games (pygame), websites (html/css), 
+            <em class="frequency">12h/week, 6 classes having 1h/week</em>
+            Initiation to programming (python) for students of secondary school (13 to 16 years old) creating video games (pygame),
+            and websites programming (html/css).
+        }} &mdash; <a href="http://robertvandeneynde.be/parascolaire">robertvandeneynde.be/parascolaire</a>
+        </p>
+        
+        <h3><span class="date">2018 – now</span> <span class="data">{{ Assistant extérieur d'informatique en Polytechnique et en Sciences Écononomiques (ULB, Bruxelles)
+            | External teaching assistant in Polytechnique and Sciences Écononomiques (ULB, Brussels)}}</span></h3>
+        <p>
+        {{
+            <em class="frequency">2h/semaine pendant un quadrimestre</em>
+            Cours de C++ en 3ème année de Polytechnique, section informatique et biomédical. Cours de Python/Django en 3ème année de Sciences Écononomiques, tronc commun.
+            |
+            <em class="frequency">2h/week during one quadrimester</em>
+            C++ programming in 3rd year of <em>Polytechnique, section informatique et biomédical</em>. Python/Django programming in 3rd year of <em>Sciences Écononomiques, tronc commun</em>.
         }} &mdash; <a href="http://robertvandeneynde.be/parascolaire">robertvandeneynde.be/parascolaire</a>
         </p>
         
         <h3><span class="date">2015 – now</span> <span class="data">{{ Professeur parascolaire au Lycée Emile Jacqmain (Bruxelles) | Teacher of extra-curricular courses at Lycée Emile Jacqmain (Brussels)}}</span></h3>
         <p>
         {{
-            2 groupes ayant chacun 1h par semaine. Initiation à l'informatique pour des élèves de l'enseignement secondaire (de 14 à 16 ans) par la programmation de jeux vidéos. Ce cours a été créé suite à une initiative personnelle
+            <em class="frequency">2 groupes ayant chacun 1h/semaine</em>
+            Initiation à l'informatique pour des élèves de l'enseignement secondaire (de 14 à 16 ans) par la programmation de jeux vidéos. Ce cours a été créé suite à une initiative personnelle
             |
-            2 groups having each 1h per week. Initiation to programming for students of secondary school (14 to 16 years old) creating video games. This course was started on my own initiative 
+            <em class="frequency">2 groups having each 1h/week</em>
+            Initiation to programming for students of secondary school (14 to 16 years old) creating video games. This course was started on my own initiative 
         }} &mdash; <a href="http://robertvandeneynde.be/parascolaire">robertvandeneynde.be/parascolaire</a>
         </p>
         
         <h3><span class="date">2017 – 2018</span> <span class="data">{{ Assistant de physique à l'ULB (Bruxelles) | Physics teaching assitant at ULB (Brussels) }}</span></h3>
         <p>
         {{
-            Assistant de physique pour le cours de Physique Générale PHYSS1001 à la Solvay Business School &ndash; Université Libre de Bruxelles
+            <em class="frequency">Temps plein</em>
+            Assistant de physique pour le cours de Physique Générale PHYSS1001 à la Solvay Business School &ndash; ULB 
             |
-            Teaching assitant for Physics class PHYSS1001 at the Solvay Business School &ndash; Université Libre de Bruxelles
+            <em class="frequency">Full time</em>
+            Teaching assitant for Physics class PHYSS1001 at the Solvay Business School &ndash; ULB
         }} &mdash; <a href="https://ulb.ac.be">ulb.ac.be</a>
         </p>
 
         <h3><span class="date">2015 – 2017</span> <span class="data">{{ Leader technique pour la plate-forme web Benjago | Technical leader for web platform Benjago }}</span></h3>
         <p>
         {{
+            <em class="frequency">1h/semaine pendant 3 ans</em>
             Développement pour la plate-forme Benjago.
             Établissement des choix technologiques, développement du back-end, coordination dans l'équipe avec le fondateur, le designer et le développeur front-end.
             |
+            <em class="frequency">1h/week during 3 years</em>
             Development for web platform Benjago. Leader for technical choices, back-end development, team coordination
             between founder, designer and front-end developer.
         }} &mdash; <a href="https://benjago.be" style="text-decoration:line-through">benjago.be</a>
         </p>
         
         <h3><span class="date">2013 – 2015</span> <span class="data">{{ Élève-assistant à l'École Polytechnique et à la Solvay Business School (ULB) | Student Assistant at École Polytechnique and Solvay Business School (ULB) }}</span></h3>
-        <p>{{ Guidances en informatique pour étudiants de bachelier. | Guidance seminars in computer science for bachelor students. }}</p>
+        <p>{{
+            <em class="frequency">3h/week</em>
+            Guidances en informatique pour étudiants de bachelier.
+            |
+            <em class="frequency">3h/week</em>
+            Guidance seminars in computer science for bachelor students.
+        }}</p>
 
         <h3><span class="date">2010 – 2017</span> <span class="data">{{ Cours particuliers en informatique, physique et mathématiques | Private tuition in computer science, physics and mathematics }}</span></h3>
         
-        <h3><span class="date">2015</span> <span class="data">{{ Développement web pour M4ke.it et développement du prototype du projet Pickeat
-            | Web development for M4ke.it and development of a prototype for Pickeat project }}</span></h3>
+        <h3><span class="date">2015</span> <span class="data">{{
+            Développement web pour M4ke.it et développement du prototype du projet Pickeat
+            |
+            Web development for M4ke.it and development of a prototype for Pickeat project
+        }}</span></h3>
             
-        <p>{{ Développement Python et AngularJS à M4ke.it et développement web pour Pickeat,
+        <p>
+            {{<em class="frequency">40h pour M4ke.it et 20h pour Pickeat</em>
+             |<em class="frequency">40h for M4ke.it and 20h for Pickeat</em> }}
+            {{ Développement Python et AngularJS à M4ke.it et développement web pour Pickeat,
             | Python and AngularJS development for M4ke.it and web development for Pickeat, }}
             
             {{ une application pour une future chaîne de restaurant. Le prototype est accessible sur demande
@@ -358,7 +386,7 @@
 
         <div class="formation">
             <h3>2014 – 2017</h3>
-            <p>{{ Master Ingénieur civil en informatique en Polytechnique (Université Libre Bruxelles) | Master in Computer Science and Engineering in Polytechnique (Université Libre de Bruxelles) }}</p>
+            <p>{{ Master Ingénieur civil en informatique en Polytechnique (Université Libre de Bruxelles) | Master in Computer Science and Engineering in Polytechnique (Université Libre de Bruxelles) }}</p>
             <h3>2010 – 2014</h3>
             <p>{{ Bachelier Ingénieur civil, orientation informatique. | Bachelor in Engineering, Computer Science section. }}</p>
             <h3>2004 – 2010</h3>
