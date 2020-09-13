@@ -221,10 +221,25 @@
     .themail::after {
         content: "@hotmail.com";
     }
+    .thegmail::after {
+        content: "@gmail.com";
+    }
     .frequency {
         margin-right: 1em;
         font-variant: italic;
         font-size: 80%;
+    }
+    .has-title, [title] {
+        text-decoration: underline;
+    }
+    .has-title::after {
+        content: "*";
+    }
+    /* p + .hr {
+        margin-bottom: 5px;
+    } */
+    .hr + h3, .column:first-child .hr + h3 {
+        margin-top: 5px;
     }
   </style>
 
@@ -240,7 +255,7 @@
         </idiv>
         <idiv class="right">
             <p>+32 474 78 15 97</p>
-            <p class="themail">robertvandeneynde</p>
+            <p><span class="themail">robertvandeneynde</span> | <span class="thegmail">robertve92</span></p>
             <p><a href="https://robertvandeneynde.be">robertvandeneynde.be</a></p>
             <p>
                 <a href="https://robertvandeneynde.be/cv/cv.{{en|fr}}.html">{{English version available|Version en français disponible}}</a>
@@ -255,7 +270,7 @@
 
         <h2>{{ Expérience | Experience }}</h2>
         
-        <h3><span class="date">2018 – now</span> <span class="data">{{ Professeur d'informatique en secondaire à l'institut de l'Assomption (Bruxelles)
+        <h3><span class="date" title="2018 September - 2020 August">2018 – 2020</span> <span class="data">{{ Professeur d'informatique en secondaire à l'institut de l'Assomption (Bruxelles)
             | Teacher computer science at <em>Institut de l'Assomption</em> (Brussels)}}</span></h3>
         <p>
         {{
@@ -269,7 +284,7 @@
         }} &mdash; <a href="http://robertvandeneynde.be/parascolaire">robertvandeneynde.be/parascolaire</a>
         </p>
         
-        <h3><span class="date">2018 – now</span> <span class="data">{{ Assistant extérieur d'informatique en Polytechnique et en Sciences Écononomiques (ULB, Bruxelles)
+        <h3><span class="date" title="|2018 - 2020 (Polytech) |2018 - now (SciencesÉco)" style="has-title">2018 – now</span> <span class="data">{{ Assistant extérieur d'informatique en Polytechnique et en Sciences Écononomiques (ULB, Bruxelles)
             | External teaching assistant in Polytechnique and Sciences Écononomiques (ULB, Brussels)}}</span></h3>
         <p>
         {{
@@ -281,7 +296,7 @@
         }} &mdash; <a href="http://ulb.ac.be">ulb.ac.be</a>
         </p>
         
-        <h3><span class="date">2015 – now</span> <span class="data">{{ Professeur parascolaire au Lycée Emile Jacqmain (Bruxelles) | Teacher of extra-curricular courses at Lycée Emile Jacqmain (Brussels)}}</span></h3>
+        <h3><span class="date">2015 – 2020</span> <span class="data">{{ Professeur parascolaire au Lycée Emile Jacqmain (Bruxelles) | Teacher of extra-curricular courses at Lycée Emile Jacqmain (Brussels)}}</span></h3>
         <p>
         {{
             <em class="frequency">2 groupes ayant chacun 1h/semaine</em>
@@ -302,6 +317,8 @@
             Teaching assitant for Physics class PHYSS1001 at the Solvay Business School &ndash; ULB
         }} &mdash; <a href="https://ulb.ac.be">ulb.ac.be</a>
         </p>
+        
+        <div class="hr" style="height: 12px; border-bottom: 1px solid #009; text-align: center; font-size: 12px; top: -2px; position: relative">{{ Fin de mes études, voyage de 5 mois en Australie | End of my studies, trip 5 months in Australia }}</div>
 
         <h3><span class="date">2015 – 2017</span> <span class="data">{{ Leader technique pour la plate-forme web Benjago | Technical leader for web platform Benjago }}</span></h3>
         <p>
