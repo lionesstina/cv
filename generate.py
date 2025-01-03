@@ -3,7 +3,7 @@ import re
 
 from generate_utils import OutFile
 
-for filename in ('cv.html', 'cv-edu.html'):
+for filename in ('cv.html', ): # 'cv-edu.html'):
   base = filename.split('.')[0]
   with open(f'{base}.html') as f:
     s = f.read();
